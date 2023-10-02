@@ -60,9 +60,16 @@
 // months.splice(0,2,"july","june");
 // console.log(months);
 
-let arr =  ["c","c++","html","javascript","python","java","c#","sql"];
-arr.reverse();
-console.log(arr);
+// let arr =  ["c","c++","html","javascript","python","java","c#","sql"];
+// arr.reverse();
+// console.log(arr);
 
-arr.indexOf("javascript");
-console.log(arr);
+// arr.indexOf("javascript");
+// console.log(arr);
+
+let arr = [7,9,0,-2];
+let n=3;
+
+
+let ans = arr.slice(1);
+console.log(ans);
