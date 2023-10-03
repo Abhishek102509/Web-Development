@@ -67,9 +67,24 @@
 // arr.indexOf("javascript");
 // console.log(arr);
 
-let arr = [7,9,0,-2];
-let n=3;
+// let arr = [7,9,0,-2];
+// let n=3;
 
 
-let ans = arr.slice(1);
-console.log(ans);
+// let ans = arr.slice(1);
+// console.log(ans);
+
+// let str = "aabrcy";
+// let idx = 3;
+
+// if(str[idx]==str[idx].toLowerCase()){
+//     console.log("lowercase");
+// } else {
+//     console.log("uppercase");
+// }
+
+let n=prompt("wirte number");
+n=parseInt(n);
+for(let i=n;i<=n*10;i=i+n ){
+    console.log(i);
+}
