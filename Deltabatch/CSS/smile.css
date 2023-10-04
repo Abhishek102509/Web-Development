@@ -1,0 +1,49 @@
+#face{
+    height: 200px;
+    width: 200px;
+
+    background-color: yellow;
+
+    border-radius: 50%;
+    
+}
+
+#eye1{
+    height: 20px;
+    width: 20px;
+
+    background-color: red;
+
+    border-radius: 50%;
+ position: absolute;
+ top: 50px;
+ left: 60px;
+    
+}
+
+#eye2{
+    height: 20px;
+    width: 20px;
+
+    background-color: red;
+
+    border-radius: 50%;
+ position: absolute;
+ top: 50px;
+ left: 140px;
+}
+
+#lips{
+    height: 50px;
+    width: 50px;
+
+    background-color: brown;
+
+    border-radius: 0 0 50% 50%;
+
+    position: absolute;
+
+    top: 150px;
+    left: 90px;
+
+}
