@@ -83,8 +83,30 @@
 //     console.log("uppercase");
 // }
 
-let n=prompt("wirte number");
-n=parseInt(n);
-for(let i=n;i<=n*10;i=i+n ){
-    console.log(i);
-}
+// let n=prompt("wirte number");
+// n=parseInt(n);
+// for(let i=n;i<=n*10;i=i+n ){
+//     console.log(i);
+// }
+
+// let a ={1:40,null:98,name:"mohit"};
+// console.log(a);
+
+// let stu = {
+//     aman:{age:12,city:"delhi"},
+//     mohit:{age:1,city:"lko"},
+//     nandani:{age:16,city:"mumbai"}
+// };
+// console.log(stu);
+// console.log(stu["aman"]["age"],stu["mohit"]["city"]);
+
+// const stu =[
+//     {name:"aman",age:12,city:"delhi"},{name:"mohit",age:1,city:"lko"}
+// ];
+// console.log(stu[0].age);
+
+
+// console.log(Math.ceil(Math.random()*10));
+
+let req =prompt("Enter your number");
+console.log(Math.ceil(Math.random()*req));
