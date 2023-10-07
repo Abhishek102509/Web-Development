@@ -108,5 +108,39 @@
 
 // console.log(Math.ceil(Math.random()*10));
 
-let req =prompt("Enter your number");
-console.log(Math.ceil(Math.random()*req));
+// let req =prompt("Enter your number");
+// console.log(Math.ceil(Math.random()*req));
+
+// function dice(){
+//     let num=6;
+//     console.log(Math.ceil(Math.random()*num));
+// }
+
+// dice();
+
+// function average(a,b,c){
+//     console.log((a+b+c)/3);
+// }
+
+// average(1,2,4);
+// average(5,7,9);
+
+// function tabel(n){
+  
+//     for(let i=n;i<=n*10;i=i+n){
+//         console.log(i);
+//     }
+// }
+// tabel(9);
+function add(n){
+    
+let sum=0;
+for(i=1;i<=n;i++){
+    sum=sum+i;
+    
+}
+return sum;
+
+}
+
+
