@@ -132,15 +132,49 @@
 //     }
 // }
 // tabel(9);
-function add(n){
+// function add(n){
     
-let sum=0;
-for(i=1;i<=n;i++){
-    sum=sum+i;
+// let sum=0;
+// for(i=1;i<=n;i++){
+//     sum=sum+i;
     
-}
-return sum;
+// }
+// return sum;
 
-}
+// }
+
+// let odd= function(n){
+//     console.log(n%2!=0);
+// }
+// odd(6);
+
+// let country= ["australia fbbbbbbbbb uuyyu kghyg h","germany","United states of america"];
+
+// if((country[0].length>country[1].length) && (country[0].length>country[2].length)){
+//     console.log(country[0]);
+// }
+// else if((country[1].length>country[0].length) && (country[1].length>country[2].length)){
+//     console.log(country[1]);
+// }
+// else{
+//     console.log(country[2]);
+// }
 
 
+//  arr = [1,2,3,4,5,6,7,8,9];
+// let num = 6;
+
+// for(let i=1;i<=arr.length;i++){
+//     if(num<arr[i]){
+//         console.log(i);
+//     }
+//     else{
+//         console.log("no number");
+//     }let
+// }
+let start=100;
+let end=200;
+
+function generate (start,end){
+    let diff=end-start;
+console.log(generate(100,200));
