@@ -172,9 +172,51 @@
 //         console.log("no number");
 //     }let
 // }
-let start=100;
-let end=200;
+// let start=100;
+// let end=200;
 
-function generate (start,end){
-    let diff=end-start;
-console.log(generate(100,200));
+// function generate (start,end){
+//     let diff=end-start;
+// console.log(generate(100,200));
+
+// const sum =(a,b)=>{
+//     console.log(a+b);
+// };
+// sum(9,8);
+
+// console.log("hi there");
+// setTimeout(function str(){console.log("aona")},4000);
+
+// console.log("wecome to");
+
+// const pow=(n)=>n*n;
+// console.log(pow(6));
+
+// let arrayAverage=(a,b,c) => {
+// return (a+b+c)/3;
+// }
+// console.log(arrayAverage(40,40,49));
+
+// let isEven=(n)=>{
+// if(n%2==0){
+//      return "even";
+// } else {
+//     return "odd";
+// }
+// };
+// console.log(isEven(5));
+
+
+// const isEven =(num)=>num%2==0;
+// console.log(isEven(4));
+
+
+const object = {
+    message:'hello world!',
+
+    logMessage(){
+        console.log(this.message);
+    }
+};
+
+setTimeout(object.logMessage,1000);
