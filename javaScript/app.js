@@ -211,12 +211,44 @@
 // console.log(isEven(4));
 
 
-const object = {
-    message:'hello world!',
+// const object = {
+//     message:'hello world!',
 
-    logMessage(){
-        console.log(this.message);
-    }
-};
+//     logMessage(){
+//         console.log(this.message);
+//     }
+// };
 
-setTimeout(object.logMessage,1000);
+// setTimeout(object.logMessage,1000);
+
+// let arr =[1,2,3,4,5];
+
+// let print = function (el) {
+//   return el*2;
+// };
+// let a =arr.map(print);
+// console.log(a);
+// console.log(arr);
+
+// let arr =[9,3,7];
+
+// let a=arr.some((el) => (el%2==0));
+// console.log(a);
+
+// let arr = [1,2,3,4];
+// let mul = arr.reduce((res,el)=>(res*el));
+
+// console.log(mul);
+// let arr = [10,40,70,20,50];
+// let mul = arr.reduce((acc ,el)=>{
+//     if(el<acc){
+//         return el;
+//     }else {
+//         return acc;
+//     }
+// });
+
+// console.log(mul);
+
+let arr=[1,2,3,-1];
+ console.log(Math.max.,(...arr));
