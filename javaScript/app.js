@@ -250,5 +250,34 @@
 
 // console.log(mul);
 
-let arr=[1,2,3,-1];
- console.log(Math.max.,(...arr));
+// let arr=[1,2,3,-1];
+//  console.log(Math.max.,(...arr));
+
+// function sum(...arg){
+//     for(let i = 0;i<arg.length;i++){
+//         console.log()
+//     }
+// }
+
+// let arr=["tony","stark","mavvyt","tgahsg"];
+// let [a,b,c]=arr;
+// console.log(a,b,c);
+
+// const student = {
+//     name:"karan",
+//     age:14,
+//     class:9,
+//     username:"karan@12345",
+//     password:"abcd"
+// };
+
+// let{username:user,password,city="mumbai"}=student;
+// console.log(user,password,city);
+
+// let arr = ["dog","cow","goat","horse"];
+
+// let n = arr.map(function (el){
+// return el.toUpperCase() ;
+// });
+
+// console.log(n);
