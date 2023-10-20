@@ -281,3 +281,34 @@
 // });
 
 // console.log(n);
+
+// Setting up the promises
+
+function savetoDb(data, sucess, failure){
+    let internetSpeed = Math.floor(Math.random() *10) + 1;
+    if(internetSpeed > 4) {
+        sucess();
+
+    } else {
+        failure();
+    }
+}
+
+savetoDb("apna college", () => {
+    console.log("sucess : your data was saved");
+    savetoDb( "hello world", () => {
+        console.log("sucess2 : data2 saved");
+        savetoDb( "mohit", () => {
+            console.log("sucess3 : data3 saved");
+        },
+        () => {
+            console.log("failure3: weak connection");
+        });
+    },
+    () => {
+        console.log("failure2 : weak connection");
+    });
+},
+ () => {
+    console.log("failure3 : weak connection");
+ });
